@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>다모임</title>
+	<link href="css/join.css" rel="stylesheet" type="text/css" />
+</head>
+<body style="overflow:hidden;">
+	<div class="container">
+		<video muted autoplay loop>
+        	<source src="img/background.mp4" type="video/mp4">
+     	</video>
+     	<div class="background_box"></div>
+     	<div class="container2">
+     		<input type="text" name="name" id="name" placeholder="이름" style="color: #FFFFFF;"><br>
+     		<input type="text" name="id" id="id" placeholder="아이디" style="color: #FFFFFF; width: 25%;	">
+     		<input type="button" name="idok" value="중복확인"><br>
+     		<input type="password" name="pw" id="pw" placeholder="비밀번호" style="color: #FFFFFF;"><br>
+     		<input type="password" name="pwok" id="pwok" placeholder="비밀번호 확인" style="color: #FFFFFF;"><br>
+     		<input type="text" name="email" id="email" placeholder="email" style="color: #FFFFFF; width: 25%;">
+     		<input type="button" name="emailok" value="인증하기"><br>
+     		<form>
+			  <select name="hakgwa" style="color: #FFFFFF; background-color: #0000000;">
+			    <option value="none" style="color: #000000;">학과</option>
+			    <option value="soft" style="color: #000000;">뉴미디어소프트웨어과</option>
+			    <option value="web" style="color: #000000;">뉴미디어웹솔루션과</option>
+			    <option value="design" style="color: #000000;">뉴미디어디자인과</option>
+			  </select>
+			</form><br>
+     		<button onclick="location.href='login.html'">JOIN</button><br><br>
+     	</div>
+          <div class="menu">
+               <a href="main.html"><img id="logo" src="img/logo.png"></a>
+               <a href="mypage.html"><h3 id="mypage">마이페이지</h3></a>
+               <h3>|</h3>
+               <a href="group_create.html"><h3 id="create">그룹생성</h3></a>
+               <h3>|</h3>
+               <a href="group_lookup.html"><h3 id="lookup">그룹조회</h3></a>
+               <h3>|</h3>
+               <a href="recommand.html"><h3 id="recommand">추천받기</h3></a>
+          </div>
+	</div>
+</body>
+</html>
