@@ -25,7 +25,11 @@ video { width: 100%; }
 	top:0; left:0;
 }
 
-.menu h3 { font-size: 20px; color: #FFFFFF; font-family: 'Noto Sans KR', sans-serif; font-weight: 500;
+.menu h3 { 
+	font-size: 20px; 
+	color: #FFFFFF; 
+	font-family: 'Noto Sans KR', sans-serif; 
+	font-weight: 500;
 	float: right;
 	margin-right: 2%;
 	margin-top: 3%;
@@ -50,10 +54,43 @@ video { width: 100%; }
 	top:0; left:0;
 }
 
-.container2 input { font-size: 20px; color: #FFFFFF; font-family: 'Noto Sans KR', sans-serif; font-weight: 500; margin-top: 1%; padding-left: 2%;
-					width: 30%; height: 7%; border-radius:  30px; color: black; border: none; }
+.container2 input { 
+	font-size: 20px; 
+	color: #FFFFFF; 
+	font-family: 'Noto Sans KR', sans-serif; 
+	font-weight: 500; 
+	margin-top: 1%; 
+	padding-left: 2%;
+	width: 20%; 
+	height: 6%; 
+	border-radius:  30px; 
+	color: black; 
+	border: none; 
+
+}
+
 input:focus { outline: none; }
 a {text-decoration:none;}
-.container2 button { font-size: 20px; color: #FFFFFF; font-family: 'Noto Sans KR', sans-serif; font-weight: 500; margin-top: 1.5%;
-		 width: 32%; height: 7%; background-color: #FF002E; border-radius:30px;  border: none; }
-.container2 span { font-size: 20px; color: #FFFFFF; font-family: 'Noto Sans KR', sans-serif; font-weight: 500; margin-left: 2%; border:0; outline: 0; }
+.container2 button { 
+	font-size: 20px; 
+	color: #FFFFFF; 
+	font-family: 'Noto Sans KR', sans-serif; 
+	font-weight: 500; 
+	margin-top: 1.5%;
+	width: 21.8%; 
+	height: 6%; 
+	background-color: #FF002E; 
+	border-radius:30px;  
+	border: none; 
+}
+.container2 span { 
+	font-size: 20px; 
+	color: #FFFFFF; 
+	font-family: 'Noto Sans KR', sans-serif; 
+	font-weight: 500; 
+	margin-left: 2%; 
+	border:0; outline: 0; 
+}
+.container2 span:nth-child(1){
+	margin-left: 0;
+}
