@@ -12,7 +12,7 @@
 	<div class="container">
      	<div class="container2">
      		<form>
-			  <select name="people" style="color: #000000; background-color: #0000000; float: left; margin-left: 3%;">
+			  <select name="people" style="color: #000000; background-color: #00000000; float: left; margin-left: 3%;">
 			    <option value="none" style="color: #000000;">모임 최대 인원수</option>
 			    <option value="1" style="color: #000000;">1명</option>
 			    <option value="2" style="color: #000000;">2명</option>
@@ -27,14 +27,14 @@
 			  </select>
 			</form>
 			<form>
-			  <select name="category" style="color: #000000; background-color: #0000000; margin-left: 5%;">
+			  <select name="category" style="color: #000000; background-color: #00000000; margin-left: 5%;">
 			    <option value="none" style="color: #000000;">카테고리</option>
-			    <option value="soft" style="color: #000000;">취업 준비</option>
-			    <option value="web" style="color: #000000;">전공 스터디</option>
-			    <option value="design" style="color: #000000;">시험 대비</option>
+			    <option value="employment" style="color: #000000;">취업 준비</option>
+			    <option value="major" style="color: #000000;">전공과목 스터디</option>
+			    <option value="human" style="color: #000000;">인문과목 스터디</option>
 			  </select>
 			</form>
-			<div class="layout1">
+			<div class="layout_box">
 				<span>가입 가능 학년</span>
 				<div class="layout">
 				<label><input type="checkbox" name="age" value="one"> 1학년</label>
@@ -42,7 +42,7 @@
 	      		<label><input type="checkbox" name="age" value="three"> 3학년</label>
 	      		</div>
       		</div>
-      		<div class="layout2">
+      		<div class="layout_box">
 				<span>학과</span>
 				<div class="layout">
 				<label><input type="checkbox" name="hakgwa" value="s"> 소프트웨어</label>
@@ -50,21 +50,21 @@
 	      		<label><input type="checkbox" name="hakgwa" value="d"> 디자인</label>
 	      	</div>
 	      	</div>
-	      	<div class="layout3">
+	      	<div class="layout_box">
 				<span>모임 방법</span>
 				<div class="layout">
 				<label><input type="checkbox" name="way" value="online"> 온라인</label>
 	      		<label><input type="checkbox" name="way" value="offline"> 오프라인</label>
 	      	</div>
 	      	</div>
-	      	<div class="layout4">
+	      	<div class="layout_box">
 				<span>모임 형태</span>
 				<div class="layout">
 				<label><input type="checkbox" name="shape" value="long"> 정기적</label>
 	      		<label><input type="checkbox" name="shape" value="short"> 비정기적</label>
 	      	</div>
 	      	</div>
-	      	<div class="layout5">
+	      	<div class="layout_box">
 				<span>모임 날짜</span>
 				<div class="layout">
 				<label><input type="checkbox" name="day" value="mon"> 월요일</label>
@@ -75,7 +75,7 @@
 	      		<label><input type="checkbox" name="day" value="weekend"> 주말</label>
 	      	</div>
 	      	</div>
-	      	<div class="layout6">
+	      	<div class="layout_box">
 				<span>모임 시간</span>
 				<div class="layout">
 				<input type='number' id="start_time" maxlength='2'></input>
@@ -84,26 +84,26 @@
 				<span style="margin-left: 0%;">시</span>
 			</div>
 			</div>
-			<div class="layout7">
+			<div class="layout_group_title_box">
 			<input type="text" name="group_name" id="group_name" placeholder="모임명" style="color: #000000;">
 			</div>
-			<div class="layout8">
+			<div class="layout_group_about_box">
 				<span>모임 설명</span>
 				<br>
 				<textarea id="about"></textarea>
 			</div>
      		<button onclick="location.href='login.html'" style="margin-bottom: 30%;">모임 생성하기</button>
      	</div>
-          <div class="menu">
-               <a href="main.html"><img id="logo" src="img/logo.png"></a>
-               <a href="mypage.html"><h3 id="mypage">마이페이지</h3></a>
-               <h3>|</h3>
-               <a href="group_create.html"><h3 id="create">그룹생성</h3></a>
-               <h3>|</h3>
-               <a href="group_lookup.html"><h3 id="lookup">그룹조회</h3></a>
-               <h3>|</h3>
-               <a href="recommand.html"><h3 id="recommand">추천받기</h3></a>
-          </div>
+		<div class="menu">
+			<a href="main.html"><img id="logo" src="img/logo.png"></a>
+			<a href="mypage.html"><h3 id="mypage">마이페이지</h3></a>
+			<h3>|</h3>
+			<a href="group_lookup.html"><h3 id="lookup">그룹조회</h3></a>
+			<h3>|</h3>
+			<a href="group_create.html"><h3 id="create">그룹생성</h3></a>
+			<h3>|</h3>
+			<a href="recommand.html"><h3 id="recommand">추천받기</h3></a>
+		</div>
 	</div>
 	<script type="text/javascript">
 		function handleOnInput(el, maxlength) {
